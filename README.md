@@ -1,7 +1,7 @@
 # Youtube-concept - учебный проект Glo Academy
 Выполнила Marina L
 
-##используемые технологии:
+## Используемые технологии:
 - HTML
 - CSS
 - Normalize.css
