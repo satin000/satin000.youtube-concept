@@ -292,3 +292,54 @@
   justify-content: space-between;
   width: 70px;
 }
+
+.channel-2 {
+  position: relative;
+  margin-bottom: 50px;
+
+  align-items: center;
+}
+
+.channel-2-button {
+  cursor: pointer;
+}
+
+.video-thumb-2 {
+  width: 540px;
+  height: 300px;
+  position: relative;
+}
+
+.video-card-2 {
+  width: 540px;
+}
+
+.thumbnail-2 {
+  width: 540px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 14px;
+}
+
+.channel-3 {
+  position: relative;
+  margin-bottom: 50px;
+  align-items: center;
+}
+
+.channel-name {
+  display: inline-block;
+  align-items: flex-end;
+  justify-content: space-between;
+  vertical-align: middle;
+}
+
+.channel-name-name {
+  content: " ";
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 19px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #c2c2c2;
+}
