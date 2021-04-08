@@ -327,17 +327,10 @@
   align-items: center;
 }
 
-.channel-name {
-  display: inline-block;
-  align-items: flex-end;
-  justify-content: space-between;
-  vertical-align: middle;
-}
+.channel-recommend {
+  height: 20px;
+  margin-top: 10px;
 
-.channel-name-name {
-  content: " ";
-  display: inline-block;
-  vertical-align: middle;
   margin-left: 19px;
   font-size: 16px;
   line-height: 20px;
