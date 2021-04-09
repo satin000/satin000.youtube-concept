@@ -112,7 +112,7 @@
   position: fixed;
   left: 0;
   top: 114px;
-  width: 12%;
+  width: 200зч;
   height: calc(100% - 114px);
   overflow-y: auto;
   padding-left: 32px;
@@ -175,8 +175,9 @@
   width: 100%;
   height: 400px;
   margin-top: 85px;
-  padding-left: 14%;
+  padding-left: 250px;
   padding-top: 30px;
+  padding-right: 70px;
 }
 
 .channel {
@@ -212,11 +213,10 @@
 }
 
 .video-card {
-  width: 250px;
 }
 
 .video-thumb {
-  width: 250px;
+  width: 100%;
   height: 150px;
   overflow-y: hidden;
   position: relative;
@@ -236,7 +236,7 @@
 }
 
 .thumbnail {
-  width: 250px;
+  width: 100%;
   height: 150px;
   object-fit: cover;
   border-radius: 14px;
@@ -305,17 +305,13 @@
 }
 
 .video-thumb-2 {
-  width: 540px;
+  width: 100%;
   height: 300px;
   position: relative;
 }
 
-.video-card-2 {
-  width: 540px;
-}
-
 .thumbnail-2 {
-  width: 540px;
+  width: 100%;
   height: 300px;
   object-fit: cover;
   border-radius: 14px;
@@ -335,4 +331,103 @@
   font-size: 16px;
   line-height: 20px;
   color: #c2c2c2;
+}
+
+.mobile-sidebar {
+  display: none;
+}
+
+@media (max-width: 860px) {
+  .icons {
+    display: none;
+  }
+  .user {
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 640px) {
+  .swiper-wrapper {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+  }
+
+  .slider-buttons {
+    display: none;
+  }
+
+  .swiper-slide {
+    margin-bottom: 40px;
+  }
+
+  .mobile-search {
+    display: block;
+    margin-left: auto;
+  }
+
+  .user {
+    margin-left: 20px;
+  }
+
+  .input-group {
+    position: fixed;
+    top: -100;
+    left: 0;
+    opacity: 0;
+    width: 66%;
+    margin-left: 25px;
+    transition: top 0.2s;
+  }
+  .input-group.is-open {
+    opacity: 1;
+    top: 20px;
+  }
+
+  .menu-button {
+    display: none;
+  }
+  .sidebar {
+    display: none;
+  }
+
+  .content {
+    padding-left: 32px;
+  }
+  .mobile-sidebar {
+    display: block;
+    position: fixed;
+    z-index: 99;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+  }
+}
+
+.mobile-search {
+  display: none;
+}
+
+.mobile-sidebar .nav-link {
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile-sidebar .nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0;
+  padding-top: 13px;
+  padding-bottom: 11px;
+  border-top: 1px solid #f1f1f1;
+}
+
+.nav-text {
+  margin-left: 0;
+}
+
+.nav-item {
+  padding-bottom: 0;
 }
