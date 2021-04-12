@@ -347,12 +347,6 @@
 }
 
 @media (max-width: 640px) {
-  .swiper-wrapper {
-    display: flex;
-    flex-direction: column;
-    overflow-y: auto;
-  }
-
   .slider-buttons {
     display: none;
   }
@@ -379,6 +373,7 @@
     margin-left: 25px;
     transition: top 0.2s;
   }
+
   .input-group.is-open {
     opacity: 1;
     top: 20px;
@@ -403,10 +398,6 @@
     width: 100%;
     background-color: #fff;
   }
-}
-
-.mobile-search {
-  display: none;
 }
 
 .mobile-sidebar .nav-link {
