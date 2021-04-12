@@ -1,6 +1,8 @@
 # Youtube-concept - учебный проект Glo Academy
 Выполнила Marina L
 
+https://satin000.github.io/satin000.youtube-concept/ 
+
 ## Используемые технологии:
 - HTML
 - CSS
